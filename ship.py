@@ -12,7 +12,7 @@ class Ship:
         self.settings = ai_game.settings
 
         # Load image and get ship's rect
-        self.image = pygame.image.load('images/starcraft.bmp')
+        self.image = pygame.image.load('images/ship.bmp')
         self.rect = self.image.get_rect()
 
         # Start each new ship from the mid bottom of the screen
